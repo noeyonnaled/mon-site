@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Portfolio - Étudiante en école de commerce</title>
+
+  <!-- Lien vers la feuille de style CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- En-tête avec le nom et la navigation -->
+  <header class="header">
+    <div class="container">
+      <h1>Camille Martin</h1>
+
+      <!-- Navigation accessible -->
+      <nav aria-label="Navigation principale">
+        <a href="#about">À propos</a>
+        <a href="#skills">Compétences</a>
+        <a href="#projects">Projets</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Section de présentation -->
+    <section id="about" class="hero">
+      <div class="container hero-content">
+
+        <div>
+          <p class="eyebrow">Étudiante en école de commerce</p>
+
+          <h2>Bonjour, je suis Camille.</h2>
+
+          <p>
+            Étudiante en école de commerce, je m'intéresse au marketing,
+            à la stratégie et à l'entrepreneuriat. Je recherche une
+            opportunité qui me permettra de mettre mes compétences en
+            pratique et de continuer à apprendre.
+          </p>
+
+          <a class="button" href="#contact">Me contacter</a>
+        </div>
+
+        <!-- Image avec texte alternatif pour l'accessibilité -->
+        <img
+          src="123.png"
+          alt="Portrait de Camille Martin"
+          class="profile-photo"
+        >
+
+      </div>
+    </section>
+
+    <!-- Section compétences -->
+    <section id="skills" class="section">
+      <div class="container">
+
+        <h2>Compétences</h2>
+
+        <div class="cards">
+
+          <article class="card">
+            <h3>Marketing</h3>
+            <p>Analyse de marché et création de stratégies marketing.</p>
+          </article>
+
+          <article class="card">
+            <h3>Analyse de données</h3>
+            <p>Analyse d'informations pour aider à prendre des décisions.</p>
+          </article>
+
+          <article class="card">
+            <h3>Gestion de projet</h3>
+            <p>Organisation, planification et suivi de projets.</p>
+          </article>
+
+          <article class="card">
+            <h3>Communication</h3>
+            <p>Présentation d'idées de manière claire et convaincante.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Section projets -->
+    <section id="projects" class="section section-light">
+      <div class="container">
+
+        <h2>Projets</h2>
+
+        <div class="projects">
+
+          <article class="project">
+            <h3>Étude de marché</h3>
+            <p>
+              Analyse du marché d'une entreprise fictive et proposition
+              d'une stratégie de développement.
+            </p>
+          </article>
+
+          <article class="project">
+            <h3>Projet entrepreneurial</h3>
+            <p>
+              Création d'une idée de startup avec analyse du besoin,
+              modèle économique et présentation du projet.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Section contact -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <h2>Contact</h2>
+
+        <p>
+          Vous souhaitez échanger avec moi ? N'hésitez pas à me contacter.
+        </p>
+
+        <!-- Le lien mail permet d'ouvrir directement la messagerie -->
+        <a class="button" href="mailto:camille.martin@email.com">
+          Me contacter par email
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Pied de page -->
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Camille Martin</p>
+  </footer>
+
+  <!-- JavaScript chargé à la fin pour ne pas bloquer l'affichage -->
+  <script src="script.js"></script>
+
+</body>
+</html>
